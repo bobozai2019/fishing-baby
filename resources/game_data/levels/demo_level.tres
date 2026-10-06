@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LevelDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/level_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"demo_level"
+duration_seconds = 90
+target_score = 1800
+wave_start_elapsed_seconds = PackedFloat32Array(0, 30, 60)
+swing_min_degrees = -65.0
+swing_max_degrees = 65.0
+swing_speed_deg_per_sec = 55.0
+extend_speed = 650.0
+base_retract_speed = 420.0
+max_rope_length = 880.0
+initial_rope_length = 72.0

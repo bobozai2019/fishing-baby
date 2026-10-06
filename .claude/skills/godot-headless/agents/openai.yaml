@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Headless"
+  short_description: "Godot headless scene load and capture helpers"
+  default_prompt: "Use $godot-headless to run Godot headless scene loading and screenshot capture workflows."

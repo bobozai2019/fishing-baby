@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CatchableDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/catchable_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/pickups/tin-can.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"tin-can"
+display_name = "罐头"
+category = 3
+score_value = 10
+weight_multiplier = 1.3
+swim_texture = ExtResource("2")
+visual_scale = 0.1
+collision_radius = 36.0

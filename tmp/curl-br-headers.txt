@@ -1,0 +1,11 @@
+HTTP/1.0 404 File not found
+Server: SimpleHTTP/0.6 Python/3.13.12
+Date: Sun, 09 Aug 2026 08:07:02 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 335
+Vary: Accept-Encoding
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Resource-Policy: cross-origin
+

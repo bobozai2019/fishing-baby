@@ -1,0 +1,28 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[GodotIQ] Runtime _ready() — debugger active: false
+[GodotIQ] Debugger not active, freeing runtime
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][EMPTY] player=1
+[HOOK][CAUGHT] player=1 name=螃蟹 category=CREATURE definition_id=crab instance_id=crab-integration-test score=150
+[HOOK][DELIVERED] player=1 name=螃蟹 category=CREATURE definition_id=crab instance_id=crab-integration-test score=150
+[HOOK][POWERUP] player=1 name=涡轮卷线器 definition_id=speed-reel instance_id=speed-reel-consume-test
+CORE TESTS PASSED (scene, round, hook x20, capture, data, movement, waves, powerups)

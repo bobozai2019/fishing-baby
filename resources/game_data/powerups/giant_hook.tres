@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PowerupDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/powerup_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/powerups/giant-hook.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"giant-hook"
+display_name = "金色巨钩"
+effect_kind = 1
+duration_seconds = 5.0
+magnitude = 1.6
+texture = ExtResource("2")
+visual_scale = 0.11
+collision_radius = 36.0

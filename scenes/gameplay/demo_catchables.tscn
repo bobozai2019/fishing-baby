@@ -1,0 +1,139 @@
+[gd_scene load_steps=23 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/wave_controller.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/entities/catchable.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/entities/powerup_pickup.tscn" id="3"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/blue_small.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/green_scrap.tres" id="5"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/yellow_striped.tres" id="6"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/crab.tres" id="7"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/jellyfish.tres" id="8"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/old_boot.tres" id="9"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/tin_can.tres" id="10"]
+[ext_resource type="Resource" path="res://resources/game_data/powerups/speed_reel.tres" id="11"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/purple_giant.tres" id="12"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/pearl_shell.tres" id="13"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/tire.tres" id="14"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/pufferfish.tres" id="15"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/seahorse.tres" id="16"]
+[ext_resource type="Resource" path="res://resources/game_data/powerups/giant_hook.tres" id="17"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/orange_rare.tres" id="18"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/treasure_chest.tres" id="19"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/squid.tres" id="20"]
+[ext_resource type="Resource" path="res://resources/game_data/catchables/sea_turtle.tres" id="21"]
+[ext_resource type="Resource" path="res://resources/game_data/powerups/freeze_crystal.tres" id="22"]
+
+[node name="DemoCatchables" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Wave1" type="Node2D" parent="."]
+
+[node name="BlueSmall" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(460, 520)
+definition = ExtResource("4")
+instance_id = &"blue-small-01"
+initial_direction = 1.0
+
+[node name="GreenScrap" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(1450, 560)
+definition = ExtResource("5")
+instance_id = &"green-scrap-01"
+initial_direction = -1.0
+
+[node name="YellowStriped" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(810, 650)
+definition = ExtResource("6")
+instance_id = &"yellow-striped-01"
+
+[node name="Crab" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(620, 930)
+definition = ExtResource("7")
+instance_id = &"crab-01"
+
+[node name="Jellyfish" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(1290, 690)
+definition = ExtResource("8")
+instance_id = &"jellyfish-01"
+initial_direction = -1.0
+
+[node name="OldBoot" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(240, 940)
+definition = ExtResource("9")
+instance_id = &"old-boot-01"
+
+[node name="TinCan" parent="Wave1" instance=ExtResource("2")]
+position = Vector2(870, 940)
+definition = ExtResource("10")
+instance_id = &"tin-can-01"
+
+[node name="SpeedReel" parent="Wave1" instance=ExtResource("3")]
+position = Vector2(960, 600)
+definition = ExtResource("11")
+instance_id = &"speed-reel-01"
+
+[node name="Wave2" type="Node2D" parent="."]
+
+[node name="PurpleGiant" parent="Wave2" instance=ExtResource("2")]
+position = Vector2(1550, 770)
+definition = ExtResource("12")
+instance_id = &"purple-giant-01"
+initial_direction = -1.0
+
+[node name="PearlShell" parent="Wave2" instance=ExtResource("2")]
+position = Vector2(1750, 905)
+definition = ExtResource("13")
+instance_id = &"pearl-shell-01"
+
+[node name="Tire" parent="Wave2" instance=ExtResource("2")]
+position = Vector2(1380, 930)
+definition = ExtResource("14")
+instance_id = &"tire-01"
+
+[node name="Pufferfish" parent="Wave2" instance=ExtResource("2")]
+position = Vector2(500, 720)
+definition = ExtResource("15")
+instance_id = &"pufferfish-01"
+movement_min_x = 220.0
+movement_max_x = 850.0
+
+[node name="Seahorse" parent="Wave2" instance=ExtResource("2")]
+position = Vector2(1120, 640)
+definition = ExtResource("16")
+instance_id = &"seahorse-01"
+movement_min_y = 500.0
+movement_max_y = 780.0
+
+[node name="GiantHook" parent="Wave2" instance=ExtResource("3")]
+position = Vector2(960, 760)
+definition = ExtResource("17")
+instance_id = &"giant-hook-01"
+
+[node name="Wave3" type="Node2D" parent="."]
+
+[node name="OrangeRare" parent="Wave3" instance=ExtResource("2")]
+position = Vector2(340, 800)
+definition = ExtResource("18")
+instance_id = &"orange-rare-01"
+
+[node name="TreasureChest" parent="Wave3" instance=ExtResource("2")]
+position = Vector2(1040, 900)
+definition = ExtResource("19")
+instance_id = &"treasure-chest-01"
+
+[node name="Squid" parent="Wave3" instance=ExtResource("2")]
+position = Vector2(1450, 610)
+definition = ExtResource("20")
+instance_id = &"squid-01"
+initial_direction = -1.0
+movement_min_x = 1100.0
+movement_max_x = 1760.0
+
+[node name="SeaTurtle" parent="Wave3" instance=ExtResource("2")]
+position = Vector2(740, 820)
+definition = ExtResource("21")
+instance_id = &"sea-turtle-01"
+
+[node name="FreezeCrystal" parent="Wave3" instance=ExtResource("3")]
+position = Vector2(960, 520)
+definition = ExtResource("22")
+instance_id = &"freeze-crystal-01"

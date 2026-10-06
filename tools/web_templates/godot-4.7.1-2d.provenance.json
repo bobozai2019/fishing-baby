@@ -1,0 +1,22 @@
+{
+  "godot_version": "4.7.1.stable.official.a13da4feb",
+  "source_commit": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "source_dirty": false,
+  "emscripten_version": "5.0.7 (263db4cffa6f9fc2ec514a70abac81362ea41849)",
+  "scons_version": "4.10.1.055b01f429d58b686701a56df863a817c36bb103",
+  "build_profile_sha256": "8bd8f7ddfaac730c2df707aeff7b5e2ecc69b7617703a14e07ae98d7b3f381b3",
+  "scons_args": [
+    "platform=web",
+    "target=template_release",
+    "production=yes",
+    "optimize=size_extra",
+    "lto=full",
+    "threads=no",
+    "dlink_enabled=no",
+    "deprecated=no",
+    "debug_symbols=no",
+    "build_profile=tools/godot_web_template/fishing_baby_2d.gdbuild"
+  ],
+  "template_sha256": "58492abfb0a862f316c1b19b9fcd68827c440cd884eb6a48be68669e7efeb7f2",
+  "created_at": "2026-08-09T05:15:00+08:00"
+}

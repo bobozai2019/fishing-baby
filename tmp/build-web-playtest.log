@@ -1,0 +1,229 @@
+[build] Generating the runtime font subset...
+[font] Generated resources/fonts/NotoSansCJKsc-Subset.otf: 205 characters, 102.9 KiB
+[build] Cleaning D:\godot\project\fishing-baby\build\web_playtest...
+[build] Exporting Web release with "D:\godot\Godot_v4.7.1-stable\Godot_v4.7.1-stable_win64_console.exe"...
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+Editor Logger enabled
+SCRIPT ERROR: Parse Error: Static function "set_run_instances_config()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://addons/godotiq/godotiq_server.gd:667)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "single_err" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/godotiq/godotiq_server.gd:667)
+SCRIPT ERROR: Parse Error: Static function "set_run_instances_config()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://addons/godotiq/godotiq_server.gd:673)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "run_config_err" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/godotiq/godotiq_server.gd:673)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://addons/godotiq/godotiq_plugin.gd:0)
+ERROR: Failed to load script "res://addons/godotiq/godotiq_plugin.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: _enter_tree (res://addons/godotiq/godotiq_plugin.gd:16)
+   GDScript backtrace (most recent call first):
+       [0] _enter_tree (res://addons/godotiq/godotiq_plugin.gd:16)
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 正在扫描动作…… (5 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | NotoSansCJKsc-Subset.otf[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | web-wave3-1365x768.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | index.apple-touch-icon.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | index.icon.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | index.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 打包中 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 正在保存文件：res://.godotiq.json[39m[0m
+[   2% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-694888d852d4c3789884a658f51b044c-pearl_shell.res[39m[0m
+[   3% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-e0c606aa1f427445fbe2f4196d31227f-pufferfish.res[39m[0m
+[   4% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-1f0e0e182fed6013c7d7aace031d4ff1-catchable.scn[39m[0m
+[   5% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-1470a60e95d91b5911de78d4b3ed7ca7-demo_catchables.scn[39m[0m
+[   6% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/seahorse-swim.png-6094f29e7fa01e7637da16a8ff41e04e.ctex[39m[0m
+[   6% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/seahorse-swim.png.import[39m[0m
+[   7% ] [90m[1msavepack[22m | 正在保存文件：res://package.json[39m[0m
+[   8% ] [90m[1msavepack[22m | 正在保存文件：res://package-lock.json[39m[0m
+[   9% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex[39m[0m
+[   9% ] [90m[1msavepack[22m | 正在保存文件：res://icon.svg.import[39m[0m
+[  10% ] [90m[1msavepack[22m | 正在保存文件：res://addons/godotiq/godotiq_runtime.gdc[39m[0m
+[  11% ] [90m[1msavepack[22m | 正在保存文件：res://addons/godotiq/godotiq_runtime_logger.gdc[39m[0m
+[  13% ] [90m[1msavepack[22m | 正在保存文件：res://.mcp.json[39m[0m
+[  14% ] [90m[1msavepack[22m | 正在保存文件：res://resources/manifest.json[39m[0m
+[  15% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/freeze-crystal.png-f0f65d0466d2bd680a00a4a62f02a2e8.ctex[39m[0m
+[  15% ] [90m[1msavepack[22m | 正在保存文件：res://resources/powerups/freeze-crystal.png.import[39m[0m
+[  16% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/giant-hook.png-432a27d8fb2c10fc479a296094ea71f1.ctex[39m[0m
+[  16% ] [90m[1msavepack[22m | 正在保存文件：res://resources/powerups/giant-hook.png.import[39m[0m
+[  17% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/icon-clock.svg-6546705e8cf8393b8ea9021e02292a05.ctex[39m[0m
+[  17% ] [90m[1msavepack[22m | 正在保存文件：res://resources/ui/icon-clock.svg.import[39m[0m
+[  18% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/claw-hook.png-658ac30bfb83d5f7eca89426361d584e.ctex[39m[0m
+[  18% ] [90m[1msavepack[22m | 正在保存文件：res://resources/tools/claw-hook.png.import[39m[0m
+[  19% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-3b155b472b0cd6022032c231bc00d478-boat.scn[39m[0m
+[  20% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/blue-small-swim.png-108bfc0cf186a41df4ad87f6f014e3a5.ctex[39m[0m
+[  20% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/blue-small-swim.png.import[39m[0m
+[  21% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/green-scrap-caught.png-3e77a518be6ae73c7aefba624c602a65.ctex[39m[0m
+[  21% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/green-scrap-caught.png.import[39m[0m
+[  22% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/green-scrap-swim.png-ea4b871e4dc5a9c0a1b85b615e88e4a2.ctex[39m[0m
+[  22% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/green-scrap-swim.png.import[39m[0m
+[  24% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/orange-rare-caught.png-045946cc4077fe9ef0c9a9a80028eabe.ctex[39m[0m
+[  24% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/orange-rare-caught.png.import[39m[0m
+[  25% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/orange-rare-swim.png-0fc04f7531799bde76aea21d0a2d219a.ctex[39m[0m
+[  25% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/orange-rare-swim.png.import[39m[0m
+[  26% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/blue-small-caught.png-50a2af6503b08e32bb30bed5b533ea4d.ctex[39m[0m
+[  26% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/blue-small-caught.png.import[39m[0m
+[  27% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/pufferfish-swim.png-d59415bc822be0d9ac451420e3c1fe52.ctex[39m[0m
+[  27% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/pufferfish-swim.png.import[39m[0m
+[  28% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/pufferfish-caught.png-eef9d991bdc95cdd13e86710a435cf5a.ctex[39m[0m
+[  28% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/pufferfish-caught.png.import[39m[0m
+[  29% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/purple-giant-caught.png-0f269105a0618c79cfa42845560912cd.ctex[39m[0m
+[  29% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/purple-giant-caught.png.import[39m[0m
+[  30% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/purple-giant-swim.png-e3dd90ee30cb0648ab2f98b60c55b957.ctex[39m[0m
+[  30% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/purple-giant-swim.png.import[39m[0m
+[  31% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/speed-reel.png-2f472c4ec1f16e54e1a959c42a50cb7a.ctex[39m[0m
+[  31% ] [90m[1msavepack[22m | 正在保存文件：res://resources/powerups/speed-reel.png.import[39m[0m
+[  32% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/icon-coin.svg-c93d0f43093edde5eb300f03d7a12239.ctex[39m[0m
+[  32% ] [90m[1msavepack[22m | 正在保存文件：res://resources/ui/icon-coin.svg.import[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/seahorse-caught.png-86468c76bbe455c12927574e8ecba89e.ctex[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/seahorse-caught.png.import[39m[0m
+[  34% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/yellow-striped-caught.png-9be6116b1904b3e231806f4c62136729.ctex[39m[0m
+[  34% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/yellow-striped-caught.png.import[39m[0m
+[  35% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/boat_body.png-a44818dd24af39bc0deb40c36aac93e6.ctex[39m[0m
+[  35% ] [90m[1msavepack[22m | 正在保存文件：res://resources/characters/boat_body.png.import[39m[0m
+[  36% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/boy_head.png-1ace9c3ae029aca0706dd42ca966152d.ctex[39m[0m
+[  36% ] [90m[1msavepack[22m | 正在保存文件：res://resources/characters/boy_head.png.import[39m[0m
+[  37% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/girl_head.png-e2bbf8e3c7c5f8647fccc7c28d70452e.ctex[39m[0m
+[  37% ] [90m[1msavepack[22m | 正在保存文件：res://resources/characters/girl_head.png.import[39m[0m
+[  38% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/crab.png-2d22402a2bcc28e5d37f3445427315c8.ctex[39m[0m
+[  38% ] [90m[1msavepack[22m | 正在保存文件：res://resources/creatures/crab.png.import[39m[0m
+[  39% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/jellyfish.png-97f7a9ea8459531aa3483f4c014a16d2.ctex[39m[0m
+[  39% ] [90m[1msavepack[22m | 正在保存文件：res://resources/creatures/jellyfish.png.import[39m[0m
+[  40% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/sea-turtle.png-bb400f5204b9e372d7f963ad2ea866bf.ctex[39m[0m
+[  40% ] [90m[1msavepack[22m | 正在保存文件：res://resources/creatures/sea-turtle.png.import[39m[0m
+[  41% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/squid.png-e137f4fc2ec8cc5ea4cf51465731dffa.ctex[39m[0m
+[  41% ] [90m[1msavepack[22m | 正在保存文件：res://resources/creatures/squid.png.import[39m[0m
+[  42% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ocean-background.png-2a45ccb46859053b8f01bbc11fd6a736.ctex[39m[0m
+[  42% ] [90m[1msavepack[22m | 正在保存文件：res://resources/environment/ocean-background.png.import[39m[0m
+[  43% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/seabed-decoration.png-f0d4b69ace78ba4676e9477aac2cf5b4.ctex[39m[0m
+[  43% ] [90m[1msavepack[22m | 正在保存文件：res://resources/environment/seabed-decoration.png.import[39m[0m
+[  45% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/surface-wave-strip.png-8263ffc31adf7bb182c47f2703cc9232.ctex[39m[0m
+[  45% ] [90m[1msavepack[22m | 正在保存文件：res://resources/environment/surface-wave-strip.png.import[39m[0m
+[  46% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NotoSansCJKsc-Subset.otf-cf4e1f7c9c36d6a4d138d9d7839b5941.fontdata[39m[0m
+[  46% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fonts/NotoSansCJKsc-Subset.otf.import[39m[0m
+[  47% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-dc77dc517527c65149d0a5ef95a23a43-blue_small.res[39m[0m
+[  48% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-8712eba501384a89acb0dce5b9bcf4ab-crab.res[39m[0m
+[  49% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-84a068d19b0d83d6a0f1d0bf58a90e03-green_scrap.res[39m[0m
+[  50% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-379e4f254be9c2c40207e089a14c17b5-jellyfish.res[39m[0m
+[  51% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-027213675f3a8a773a17a724edc08388-old_boot.res[39m[0m
+[  52% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-8e73c7103ddf0a86d23a7c55bd08ab65-orange_rare.res[39m[0m
+[  53% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-5b63dfc197a18a720f31396338da937f-squid.res[39m[0m
+[  54% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-3aa1faf6e913ad4c7bdb6f6da1ed3ca1-tin_can.res[39m[0m
+[  56% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-08023577c39850a753ca098853674534-tire.res[39m[0m
+[  57% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-2ed358ad17c866df34fc382944249f11-purple_giant.res[39m[0m
+[  58% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-6cb39152fa8d6adbf28668d91801247a-seahorse.res[39m[0m
+[  59% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-168be3089d8ce36d50347d217fe5ab54-sea_turtle.res[39m[0m
+[  60% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-18b749058a660be198bb7a397772a7ac-treasure_chest.res[39m[0m
+[  61% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-deef2646cfca549df2e6709b464f76dd-yellow_striped.res[39m[0m
+[  62% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-287ea638eb7648fea40cffa2d16b13f9-demo_level.res[39m[0m
+[  63% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-ffcc3daf0dafdd364c797431cce98d8b-freeze_crystal.res[39m[0m
+[  64% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-ad51b447268bc3bd44ce057960fcda3b-giant_hook.res[39m[0m
+[  65% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/yellow-striped-swim.png-2ed02746ea87c33e1eba940383d8cc49.ctex[39m[0m
+[  65% ] [90m[1msavepack[22m | 正在保存文件：res://resources/fish/yellow-striped-swim.png.import[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-d57ce600dc1cc5a02288f53687daa819-game_theme.res[39m[0m
+[  67% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-6a0fad6f1da29999adebe30fb81e96e4-speed_reel.res[39m[0m
+[  68% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/old-boot.png-660b38fd139cb277d9b5187fd80f9adb.ctex[39m[0m
+[  68% ] [90m[1msavepack[22m | 正在保存文件：res://resources/pickups/old-boot.png.import[39m[0m
+[  69% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/cloud-03-large-center.png-23e9b0f50f26c0e4ccb7ec3994e89e45.ctex[39m[0m
+[  69% ] [90m[1msavepack[22m | 正在保存文件：res://resources/environment_sliced/clouds/cloud-03-large-center.png.import[39m[0m
+[  70% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/pearl-shell.png-407d7aad2fb7af8d4007c646d8d1cf2e.ctex[39m[0m
+[  70% ] [90m[1msavepack[22m | 正在保存文件：res://resources/pickups/pearl-shell.png.import[39m[0m
+[  71% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/tin-can.png-8d501993c9c3d420539166a37bf87a0b.ctex[39m[0m
+[  71% ] [90m[1msavepack[22m | 正在保存文件：res://resources/pickups/tin-can.png.import[39m[0m
+[  72% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/tire.png-c26f578583a32f1a9c1c9f2acdbd0330.ctex[39m[0m
+[  72% ] [90m[1msavepack[22m | 正在保存文件：res://resources/pickups/tire.png.import[39m[0m
+[  73% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/main.gdc[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/ui/round_result_overlay.gdc[39m[0m
+[  75% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/ui/game_hud.gdc[39m[0m
+[  77% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/tools/e2e_bridge.gdc[39m[0m
+[  78% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/treasure-chest.png-626816cb3e5027ec058c0dc07a253720.ctex[39m[0m
+[  78% ] [90m[1msavepack[22m | 正在保存文件：res://resources/pickups/treasure-chest.png.import[39m[0m
+[  79% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/wave_controller.gdc[39m[0m
+[  80% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/round_controller.gdc[39m[0m
+[  81% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/powerup_effect_controller.gdc[39m[0m
+[  82% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/hook_controller.gdc[39m[0m
+[  83% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/entities/powerup_pickup.gdc[39m[0m
+[  84% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/lighthouse-island.png-b3bf27c0debb00384efdb040f2be3868.ctex[39m[0m
+[  84% ] [90m[1msavepack[22m | 正在保存文件：res://resources/environment_sliced/island/lighthouse-island.png.import[39m[0m
+[  85% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/entities/catchable.gdc[39m[0m
+[  86% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/entities/boat.gdc[39m[0m
+[  88% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/data/powerup_definition.gdc[39m[0m
+[  89% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/data/level_definition.gdc[39m[0m
+[  90% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/data/catchable_definition.gdc[39m[0m
+[  91% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn[39m[0m
+[  92% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-a6c11981fd79320b32a60fd7bea8c65f-round_result_overlay.scn[39m[0m
+[  93% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-60030ad639890a3d8c4bad3ffdd69de9-game_hud.scn[39m[0m
+[  94% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-ec89e2edacf6adf1301dda19720686b9-hook_rig.scn[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-4d4725afc407c04bc7fff3a745d2f2a8-fishing_level.scn[39m[0m
+[  96% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-83d2f70d348436a90342b05aeeea1ebd-ocean_environment.scn[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-54d86276b065a5d7e07058a1185e8e30-powerup_pickup.scn[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/pearl_shell.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/pufferfish.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/entities/catchable.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/gameplay/demo_catchables.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://addons/godotiq/godotiq_runtime.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://addons/godotiq/godotiq_runtime_logger.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/entities/boat.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/blue_small.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/crab.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/green_scrap.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/jellyfish.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/old_boot.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/orange_rare.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/squid.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/tin_can.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/tire.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/purple_giant.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/seahorse.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/sea_turtle.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/treasure_chest.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/catchables/yellow_striped.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/levels/demo_level.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/powerups/freeze_crystal.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/powerups/giant_hook.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/ui/game_theme.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://resources/game_data/powerups/speed_reel.tres.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/main.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/ui/round_result_overlay.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/ui/game_hud.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/tools/e2e_bridge.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/wave_controller.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/round_controller.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/powerup_effect_controller.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/hook_controller.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/entities/powerup_pickup.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/entities/catchable.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/entities/boat.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/data/powerup_definition.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/data/level_definition.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/data/catchable_definition.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/main.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/ui/round_result_overlay.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/ui/game_hud.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/gameplay/hook_rig.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/gameplay/fishing_level.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/environment/ocean_environment.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/entities/powerup_pickup.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/global_script_class_cache.cfg[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://icon.svg[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/uid_cache.bin[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+[build] Output files:
+  index.wasm: 39513091 bytes
+  index.pck: 7698028 bytes
+  index.js: 279815 bytes
+[build] Web release completed: D:\godot\project\fishing-baby\build\web_playtest

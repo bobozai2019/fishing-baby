@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "style": "american-cartoon-flat-no-lighting",
+  "background": {
+    "path": "environment/ocean-background.png",
+    "size": [1920, 1080]
+  },
+  "surface_wave": {
+    "path": "environment/surface-wave-strip.png",
+    "size": [2048, 512]
+  },
+  "boat": {
+    "scene": "res://scenes/entities/boat.tscn",
+    "body": {
+      "path": "characters/boat_body.png",
+      "size": [1536, 1024]
+    },
+    "heads": {
+      "boy": {
+        "path": "characters/boy_head.png",
+        "size": [1254, 1254]
+      },
+      "girl": {
+        "path": "characters/girl_head.png",
+        "size": [1254, 1254]
+      }
+    },
+    "rope_origin_local": [203, 12],
+    "legacy_composite": {
+      "path": "characters/boat-fisherman-crane.png",
+      "size": [2048, 1024],
+      "runtime": false
+    }
+  },
+  "hook": {
+    "path": "tools/claw-hook.png",
+    "size": [1024, 1024],
+    "rope_attach_local": [512, 64]
+  },
+  "fish": [
+    {"id": "blue-small", "swim": "fish/blue-small-swim.png", "caught": "fish/blue-small-caught.png", "size": [1024, 1024]},
+    {"id": "green-scrap", "swim": "fish/green-scrap-swim.png", "caught": "fish/green-scrap-caught.png", "size": [1024, 1024]},
+    {"id": "yellow-striped", "swim": "fish/yellow-striped-swim.png", "caught": "fish/yellow-striped-caught.png", "size": [1024, 1024]},
+    {"id": "purple-giant", "swim": "fish/purple-giant-swim.png", "caught": "fish/purple-giant-caught.png", "size": [1024, 1024]},
+    {"id": "orange-rare", "swim": "fish/orange-rare-swim.png", "caught": "fish/orange-rare-caught.png", "size": [1024, 1024]}
+    ,{"id": "pufferfish", "swim": "fish/pufferfish-swim.png", "caught": "fish/pufferfish-caught.png", "size": [1024, 1024]}
+    ,{"id": "seahorse", "swim": "fish/seahorse-swim.png", "caught": "fish/seahorse-caught.png", "size": [1024, 1024]}
+  ],
+  "creatures": [
+    "creatures/crab.png",
+    "creatures/jellyfish.png",
+    "creatures/squid.png",
+    "creatures/sea-turtle.png"
+  ],
+  "powerups": [
+    "powerups/speed-reel.png",
+    "powerups/giant-hook.png",
+    "powerups/freeze-crystal.png"
+  ],
+  "pickups": [
+    "pickups/treasure-chest.png",
+    "pickups/pearl-shell.png",
+    "pickups/old-boot.png",
+    "pickups/tire.png",
+    "pickups/tin-can.png"
+  ],
+  "environment_props": [
+    "environment/seabed-decoration.png"
+  ],
+  "environment_sliced": {
+    "config": "environment_sliced/config/ninepatch-config.json",
+    "scene_background_9slice": "environment_sliced/background/scene-background-9slice.png",
+    "sky_9slice": "environment_sliced/background/sky-9slice.png",
+    "water_9slice": "environment_sliced/water/water-9slice.png",
+    "sand_3slice": "environment_sliced/sand/sand-3slice.png",
+    "cloud_directory": "environment_sliced/clouds",
+    "island": "environment_sliced/island/lighthouse-island.png",
+    "seabed_left": "environment_sliced/decor/seabed-left.png",
+    "seabed_right": "environment_sliced/decor/seabed-right.png"
+  },
+  "ui": [
+    "ui/hud-panel.svg",
+    "ui/icon-button-frame.svg",
+    "ui/icon-clock.svg",
+    "ui/icon-coin.svg",
+    "ui/icon-hook.svg",
+    "ui/icon-winch.svg",
+    "ui/icon-net.svg"
+  ]
+}

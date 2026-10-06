@@ -1,0 +1,12 @@
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.13.12
+Date: Sat, 08 Aug 2026 21:40:43 GMT
+Content-Type: application/javascript
+Content-Encoding: br
+Content-Length: 54679
+Last-Modified: Sat, 08 Aug 2026 21:36:21 GMT
+Vary: Accept-Encoding
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Resource-Policy: cross-origin
+

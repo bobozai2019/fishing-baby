@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "godotiq": {
+      "args": [
+        "-m",
+        "godotiq"
+      ],
+      "env": {
+        "PYTHONPATH": "D:/godot/fishing-baby/addons/godotiq",
+        "GODOTIQ_ADDON_PORT": "6007",
+        "GODOTIQ_PROJECT_ROOT": "D:/godot/fishing-baby"
+      },
+      "type": "stdio",
+      "command": "python"
+    }
+  }
+}

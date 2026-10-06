@@ -1,0 +1,80 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Texture2D" path="res://resources/environment_sliced/background/scene-background-9slice.png" id="1"]
+[ext_resource type="Texture2D" path="res://resources/environment_sliced/clouds/cloud-03-large-center.png" id="2"]
+[ext_resource type="Texture2D" path="res://resources/environment_sliced/island/lighthouse-island.png" id="3"]
+[ext_resource type="Texture2D" path="res://resources/environment/seabed-decoration.png" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/entities/boat.tscn" id="5"]
+[ext_resource type="Texture2D" path="res://resources/environment/surface-wave-strip.png" id="6"]
+[ext_resource type="Texture2D" path="res://resources/characters/girl_head.png" id="7"]
+[ext_resource type="Script" path="res://scripts/environment/ocean_environment.gd" id="8"]
+[ext_resource type="Texture2D" path="res://resources/environment_sliced/sand/sand-3slice.png" id="9"]
+
+[node name="OceanEnvironment" type="Node2D"]
+script = ExtResource("8")
+
+[node name="Environment" type="Node2D" parent="."]
+
+[node name="SkyWaterSand" type="NinePatchRect" parent="Environment"]
+z_index = -30
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+texture = ExtResource("1")
+patch_margin_left = 320
+patch_margin_top = 393
+patch_margin_right = 320
+patch_margin_bottom = 160
+
+[node name="Clouds" type="Node2D" parent="Environment"]
+z_index = -29
+
+[node name="Cloud" type="Sprite2D" parent="Environment/Clouds"]
+position = Vector2(660, 150)
+scale = Vector2(0.65, 0.65)
+texture = ExtResource("2")
+modulate = Color(1, 1, 1, 0.9)
+
+[node name="Island" type="Sprite2D" parent="Environment"]
+z_index = -25
+position = Vector2(260, 310)
+scale = Vector2(0.32, 0.32)
+texture = ExtResource("3")
+
+[node name="SeabedDecor" type="Sprite2D" parent="Environment"]
+z_index = -10
+position = Vector2(960, 875)
+scale = Vector2(0.95, 0.95)
+texture = ExtResource("4")
+
+[node name="Sandbed" type="NinePatchRect" parent="Environment"]
+z_index = -11
+offset_top = 950.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+texture = ExtResource("9")
+patch_margin_left = 384
+patch_margin_right = 384
+
+[node name="SurfaceWaves" type="Sprite2D" parent="Environment"]
+z_index = 11
+position = Vector2(960, 405)
+scale = Vector2(0.94, 0.34)
+texture = ExtResource("6")
+
+[node name="Boat" parent="." instance=ExtResource("5")]
+z_index = 10
+position = Vector2(960, 238)
+
+[node name="Boat2" parent="." instance=ExtResource("5")]
+z_index = 10
+position = Vector2(760, 238)
+
+[node name="Head" parent="Boat2" index="1"]
+texture = ExtResource("7")
+
+[node name="RopeOrigin" parent="Boat2" index="2"]
+position = Vector2(0, 12)
+
+[editable path="Boat2"]

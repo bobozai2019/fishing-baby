@@ -1,0 +1,44 @@
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:23] "GET /index.html HTTP/1.1" 200 -
+
+Running 3 tests using 1 worker
+
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:25] "GET /?e2e=1 HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:25] "GET /index.png HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:25] "GET /index.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:26] "GET /index.wasm HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:26] "GET /index.pck HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:28] "GET /index.audio.position.worklet.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:28] "GET /index.audio.worklet.js HTTP/1.1" 200 -
+  ok 1 [chromium] › tests\e2e\capture-scoring.spec.ts:7:7 › 真实捕获与计分 › E2E-CORE-02 目标当帧挂钩并在送达时只计分一次 (7.0s)
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:32] "GET /?e2e=1 HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:32] "GET /index.png HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:32] "GET /index.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:32] "GET /index.wasm HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:32] "GET /index.pck HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:33] "GET /index.audio.position.worklet.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:33] "GET /index.audio.worklet.js HTTP/1.1" 200 -
+  ok 2 [chromium] › tests\e2e\start-empty.spec.ts:10:5 › E2E-CORE-01 开始、Web 输入焦点与空钩零分 (13.5s)
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:45] "GET /?e2e=1 HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:45] "GET /index.png HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:45] "GET /index.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:45] "GET /index.wasm HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:45] "GET /index.pck HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:47] "GET /index.audio.worklet.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:47] "GET /index.audio.position.worklet.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:50] "GET /?e2e=1 HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:50] "GET /index.png HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:50] "GET /index.js HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:50] "GET /index.wasm HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:50] "GET /index.pck HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:51] "GET /index.audio.position.worklet.js HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:51] "GET /index.audio.worklet.js HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:53] "GET /?e2e=1 HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:53] "GET /index.png HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:53] "GET /index.js HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:53] "GET /index.wasm HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:53] "GET /index.pck HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:55] "GET /index.audio.worklet.js HTTP/1.1" 304 -
+[WebServer] 127.0.0.1 - - [09/Aug/2026 05:14:55] "GET /index.audio.position.worklet.js HTTP/1.1" 304 -
+  ok 3 [chromium] › tests\e2e\viewport-matrix.spec.ts:50:5 › E2E-VIEW-01 Web 视口布局矩阵 (13.3s)
+
+  3 passed (36.5s)

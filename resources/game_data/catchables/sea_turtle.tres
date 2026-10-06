@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CatchableDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/catchable_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/creatures/sea-turtle.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"sea-turtle"
+display_name = "海龟"
+category = 1
+score_value = 500
+weight_multiplier = 2.1
+movement_kind = 5
+movement_speed = 55.0
+movement_amplitude = Vector2(170, 60)
+swim_texture = ExtResource("2")
+visual_scale = 0.18
+collision_radius = 62.0

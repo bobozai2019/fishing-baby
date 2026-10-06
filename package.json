@@ -1,0 +1,13 @@
+{
+  "name": "fishing-baby-e2e",
+  "private": true,
+  "scripts": {
+    "e2e:export": "python tools/export_web_e2e.py",
+    "test:e2e": "npm run e2e:export && playwright test",
+    "test:e2e:chromium": "npm run e2e:export && playwright test --project=chromium",
+    "test:e2e:edge": "npm run e2e:export && playwright test --project=edge"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1"
+  }
+}

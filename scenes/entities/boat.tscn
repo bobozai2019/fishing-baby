@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dinv4nec5adwg"]
+
+[ext_resource type="Texture2D" uid="uid://cfhjchghyh4vq" path="res://resources/characters/boat_body.png" id="1_body"]
+[ext_resource type="Texture2D" uid="uid://cyy7k8fdsysw" path="res://resources/characters/boy_head.png" id="2_head"]
+[ext_resource type="Script" path="res://scripts/entities/boat.gd" id="3_script"]
+
+[node name="Boat" type="Node2D" unique_id=593724250]
+script = ExtResource("3_script")
+
+[node name="Body" type="Sprite2D" parent="." unique_id=2024005101]
+scale = Vector2(0.36, 0.36)
+texture = ExtResource("1_body")
+
+[node name="Head" type="Sprite2D" parent="." unique_id=1357861845]
+position = Vector2(14.999996, -51.999996)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("2_head")
+
+[node name="RopeOrigin" type="Marker2D" parent="." unique_id=1044926027]
+position = Vector2(203, 12)

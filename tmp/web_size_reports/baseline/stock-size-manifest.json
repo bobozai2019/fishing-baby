@@ -1,0 +1,77 @@
+{
+  "build_id": "stock-4.7.1-a13da4feb",
+  "template_kind": "stock",
+  "brotli_quality": 11,
+  "transfer_policy": "min(raw,brotli) per file",
+  "files": [
+    {
+      "path": "index.apple-touch-icon.png",
+      "raw_bytes": 11939,
+      "brotli_bytes": 11943,
+      "transfer_bytes": 11939,
+      "sha256": "071ccd3c3619e62c9e27995cf1afde427bb1b630767801a0fe1ac33505b2f221"
+    },
+    {
+      "path": "index.audio.position.worklet.js",
+      "raw_bytes": 2973,
+      "brotli_bytes": 895,
+      "transfer_bytes": 895,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "path": "index.audio.worklet.js",
+      "raw_bytes": 7298,
+      "brotli_bytes": 1820,
+      "transfer_bytes": 1820,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "path": "index.html",
+      "raw_bytes": 5443,
+      "brotli_bytes": 1666,
+      "transfer_bytes": 1666,
+      "sha256": "d39471f3442572ea0af7ecfc95fcf4d70deaff266e678d4cf1d3cceaba3b8b01"
+    },
+    {
+      "path": "index.icon.png",
+      "raw_bytes": 5765,
+      "brotli_bytes": 5769,
+      "transfer_bytes": 5765,
+      "sha256": "662f81d7672001a6f5f928532493267c226624757de3b5fa2908f6e5923964b7"
+    },
+    {
+      "path": "index.js",
+      "raw_bytes": 279815,
+      "brotli_bytes": 59857,
+      "transfer_bytes": 59857,
+      "sha256": "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+    },
+    {
+      "path": "index.pck",
+      "raw_bytes": 7698092,
+      "brotli_bytes": 7385941,
+      "transfer_bytes": 7385941,
+      "sha256": "8486fd20be9a5722569671e0524efe028eefd5d757f4f9c56e73760acb8d5cc3"
+    },
+    {
+      "path": "index.png",
+      "raw_bytes": 21443,
+      "brotli_bytes": 19366,
+      "transfer_bytes": 19366,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "index.wasm",
+      "raw_bytes": 39513091,
+      "brotli_bytes": 7094628,
+      "transfer_bytes": 7094628,
+      "sha256": "35116f68540ac41acf7d71ea457added91b5e960a9cca3e2acc72918eaf01277"
+    }
+  ],
+  "raw_total_bytes": 47545859,
+  "upload_artifact_bytes": 17696673,
+  "brotli_transfer_bytes": 14581877,
+  "budget_bytes": 26214400,
+  "budget_metric": "transfer",
+  "budget_passed": true
+}

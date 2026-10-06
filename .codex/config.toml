@@ -1,0 +1,9 @@
+# Project-level Codex configuration
+# MCP servers for this project
+
+[mcp_servers.godotiq]
+command = "python"
+args = ["-m", "godotiq"]
+cwd = "D:/godot/fishing-baby"
+env = { PYTHONPATH = "D:/godot/fishing-baby/addons/godotiq", GODOTIQ_ADDON_PORT = "6007" }
+

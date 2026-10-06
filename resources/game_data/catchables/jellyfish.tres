@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CatchableDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/catchable_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/creatures/jellyfish.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"jellyfish"
+display_name = "水母"
+category = 1
+score_value = 220
+weight_multiplier = 1.1
+movement_kind = 2
+movement_speed = 35.0
+swim_texture = ExtResource("2")
+visual_scale = 0.14
+collision_radius = 48.0

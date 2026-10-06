@@ -1,0 +1,78 @@
+{
+  "build_id": "custom_release-78189722a76f1bb7",
+  "template_kind": "custom_release",
+  "delivery_layout": "split_directories",
+  "brotli_quality": 11,
+  "files": [
+    {
+      "path": "index.apple-touch-icon.png",
+      "raw_bytes": 11939,
+      "brotli_path": null,
+      "brotli_bytes": null,
+      "sha256": "071ccd3c3619e62c9e27995cf1afde427bb1b630767801a0fe1ac33505b2f221"
+    },
+    {
+      "path": "index.audio.position.worklet.js",
+      "raw_bytes": 2973,
+      "brotli_path": "../web_playtest_br/index.audio.position.worklet.js.br",
+      "brotli_bytes": 895,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "path": "index.audio.worklet.js",
+      "raw_bytes": 7298,
+      "brotli_path": "../web_playtest_br/index.audio.worklet.js.br",
+      "brotli_bytes": 1820,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "path": "index.html",
+      "raw_bytes": 5443,
+      "brotli_path": "../web_playtest_br/index.html.br",
+      "brotli_bytes": 1667,
+      "sha256": "678c67571a038520e5aee46e15387e74ca13659850650a66f6247571733d6917"
+    },
+    {
+      "path": "index.icon.png",
+      "raw_bytes": 5765,
+      "brotli_path": null,
+      "brotli_bytes": null,
+      "sha256": "662f81d7672001a6f5f928532493267c226624757de3b5fa2908f6e5923964b7"
+    },
+    {
+      "path": "index.js",
+      "raw_bytes": 250560,
+      "brotli_path": "../web_playtest_br/index.js.br",
+      "brotli_bytes": 54679,
+      "sha256": "38af64dd955e2fb1b580da401ef5105492b9e09cfee1be4f3875066c222a89ad"
+    },
+    {
+      "path": "index.pck",
+      "raw_bytes": 7699032,
+      "brotli_path": "../web_playtest_br/index.pck.br",
+      "brotli_bytes": 7375209,
+      "sha256": "84ec9b5b82cb1c5d481d40ceb26a44d66855be072c2a8fb1d1c2197134c39b75"
+    },
+    {
+      "path": "index.png",
+      "raw_bytes": 21443,
+      "brotli_path": null,
+      "brotli_bytes": null,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "index.wasm",
+      "raw_bytes": 16749392,
+      "brotli_path": "../web_playtest_br/index.wasm.br",
+      "brotli_bytes": 3358456,
+      "sha256": "03e16e8418d82766bd4f63e3e058bbe383adef2d1c662c77540740f15b515995"
+    }
+  ],
+  "raw_total_bytes": 24753845,
+  "upload_artifact_bytes": 24756725,
+  "brotli_transfer_bytes": 10831873,
+  "budget_bytes": 26214400,
+  "budget_metric": "transfer",
+  "budget_passed": true,
+  "brotli_publish_directory": "../web_playtest_br"
+}

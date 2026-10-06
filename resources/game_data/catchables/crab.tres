@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CatchableDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/catchable_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/creatures/crab.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"crab"
+display_name = "螃蟹"
+category = 1
+score_value = 150
+weight_multiplier = 1.2
+swim_texture = ExtResource("2")
+visual_scale = 0.14
+collision_radius = 50.0

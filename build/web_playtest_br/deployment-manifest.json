@@ -1,0 +1,85 @@
+{
+  "build_id": "custom_release-78189722a76f1bb7",
+  "layout": "brotli_only",
+  "required_request_header": "Accept-Encoding: br",
+  "required_response_headers": {
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Cross-Origin-Embedder-Policy": "require-corp",
+    "Cross-Origin-Resource-Policy": "cross-origin"
+  },
+  "payload_bytes": 10831873,
+  "files": [
+    {
+      "request_path": "index.apple-touch-icon.png",
+      "stored_path": "index.apple-touch-icon.png",
+      "content_encoding": null,
+      "content_type": "image/png",
+      "bytes": 11939,
+      "sha256": "071ccd3c3619e62c9e27995cf1afde427bb1b630767801a0fe1ac33505b2f221"
+    },
+    {
+      "request_path": "index.audio.position.worklet.js",
+      "stored_path": "index.audio.position.worklet.js.br",
+      "content_encoding": "br",
+      "content_type": "application/javascript",
+      "bytes": 895,
+      "sha256": "363a0760644278855efc6f6550f7bfe31810348e8205ba3f54ca8bbb05d5cc48"
+    },
+    {
+      "request_path": "index.audio.worklet.js",
+      "stored_path": "index.audio.worklet.js.br",
+      "content_encoding": "br",
+      "content_type": "application/javascript",
+      "bytes": 1820,
+      "sha256": "4fc7218d8c55526df425a18ef0d6c6a9818ca087d197a454fb11f343ddebda43"
+    },
+    {
+      "request_path": "index.html",
+      "stored_path": "index.html.br",
+      "content_encoding": "br",
+      "content_type": "text/html",
+      "bytes": 1667,
+      "sha256": "bdfbbef09ebc5de661ace5ecdd2d4150cdeb011e62333e1bf4ce1b892e889d65"
+    },
+    {
+      "request_path": "index.icon.png",
+      "stored_path": "index.icon.png",
+      "content_encoding": null,
+      "content_type": "image/png",
+      "bytes": 5765,
+      "sha256": "662f81d7672001a6f5f928532493267c226624757de3b5fa2908f6e5923964b7"
+    },
+    {
+      "request_path": "index.js",
+      "stored_path": "index.js.br",
+      "content_encoding": "br",
+      "content_type": "application/javascript",
+      "bytes": 54679,
+      "sha256": "e9674687ae753e3d1a26817ee1c8b5251dbabee424e16a996050227a71348790"
+    },
+    {
+      "request_path": "index.pck",
+      "stored_path": "index.pck.br",
+      "content_encoding": "br",
+      "content_type": "application/octet-stream",
+      "bytes": 7375209,
+      "sha256": "76e2ea93e74f19de12ff190f852f1fa56c6aba890c0c899468ede972961e6a02"
+    },
+    {
+      "request_path": "index.png",
+      "stored_path": "index.png",
+      "content_encoding": null,
+      "content_type": "image/png",
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "request_path": "index.wasm",
+      "stored_path": "index.wasm.br",
+      "content_encoding": "br",
+      "content_type": "application/wasm",
+      "bytes": 3358456,
+      "sha256": "d6d49d67e23479b5cc10a1b37ea48515e276acbf15d304c599c9dafe57d82797"
+    }
+  ]
+}

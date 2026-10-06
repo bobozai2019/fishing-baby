@@ -1,0 +1,45 @@
+{
+  "base_size": [1920, 1080],
+  "nine_patch_textures": {
+    "background/scene-background-9slice.png": {
+      "margins": {"left": 320, "top": 393, "right": 320, "bottom": 160},
+      "horizontal_mode": "stretch",
+      "vertical_mode": "stretch"
+    },
+    "background/sky-9slice.png": {
+      "margins": {"left": 128, "top": 128, "right": 128, "bottom": 128},
+      "horizontal_mode": "stretch",
+      "vertical_mode": "stretch"
+    },
+    "water/water-9slice.png": {
+      "margins": {"left": 128, "top": 128, "right": 128, "bottom": 128},
+      "horizontal_mode": "stretch",
+      "vertical_mode": "stretch"
+    }
+  },
+  "horizontal_three_slice": {
+    "sand/sand-3slice.png": {
+      "height": 130,
+      "left_margin": 384,
+      "right_margin": 384,
+      "center_mode": "stretch"
+    }
+  },
+  "cloud_default_positions": {
+    "cloud-01-large-left.png": [0, 68],
+    "cloud-02-edge-right.png": [1598, 67],
+    "cloud-03-large-center.png": [572, 230],
+    "cloud-04-medium-right.png": [1237, 179],
+    "cloud-05-small-mid-left.png": [315, 318],
+    "cloud-06-small-left.png": [7, 311],
+    "cloud-07-small-center.png": [787, 245],
+    "cloud-08-small-right.png": [1704, 311],
+    "cloud-09-small-mid-right.png": [1085, 320]
+  },
+  "prop_default_positions": {
+    "island/lighthouse-island.png": [1337, 206],
+    "decor/seabed-left.png": [0, 712],
+    "decor/seabed-right.png": [1433, 711]
+  },
+  "sand_default_position": [0, 950]
+}

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://resources/environment_sliced/water/water-9slice.png" id="1_water"]
+
+[node name="WaterNinePatch" type="NinePatchRect"]
+offset_top = 393.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_water")
+patch_margin_left = 128
+patch_margin_top = 128
+patch_margin_right = 128
+patch_margin_bottom = 128

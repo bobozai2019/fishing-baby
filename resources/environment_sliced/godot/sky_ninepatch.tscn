@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://resources/environment_sliced/background/sky-9slice.png" id="1_sky"]
+
+[node name="SkyNinePatch" type="NinePatchRect"]
+offset_right = 1920.0
+offset_bottom = 393.0
+texture = ExtResource("1_sky")
+patch_margin_left = 128
+patch_margin_top = 128
+patch_margin_right = 128
+patch_margin_bottom = 128

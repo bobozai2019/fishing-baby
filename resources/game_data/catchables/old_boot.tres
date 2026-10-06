@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CatchableDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/catchable_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/pickups/old-boot.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"old-boot"
+display_name = "旧靴子"
+category = 3
+score_value = 20
+weight_multiplier = 1.6
+swim_texture = ExtResource("2")
+visual_scale = 0.12
+collision_radius = 42.0

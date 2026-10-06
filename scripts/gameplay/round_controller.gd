@@ -13,6 +13,7 @@ enum RoundResult { WON, LOST, DRAW }
 
 var state: RoundState = RoundState.BOOT
 var scores: Dictionary = {1: 0, 2: 0}
+var active_player_ids: Array[int] = [1, 2]
 var seconds_left: int = 0
 var _time_remaining: float = 0.0
 var _settled_instances: Dictionary = {}
@@ -34,6 +35,9 @@ func _process(delta: float) -> void:
 		seconds_left = display_seconds
 		time_changed.emit(seconds_left)
 	if _time_remaining <= 0.0:
+		if active_player_ids.size() == 1:
+			_finish_round(RoundResult.LOST, 0)
+			return
 		var winner := _compare_scores()
 		if winner == 0:
 			_finish_round(RoundResult.DRAW, 0)
@@ -50,7 +54,7 @@ func start_round() -> bool:
 	seconds_left = level_definition.duration_seconds
 	_settled_instances.clear()
 	_change_state(RoundState.PLAYING)
-	for player_id in scores.keys():
+	for player_id in active_player_ids:
 		score_changed.emit(player_id, scores[player_id], level_definition.target_score)
 	time_changed.emit(seconds_left)
 	return true
@@ -67,8 +71,20 @@ func ensure_ready_state() -> bool:
 	return false
 
 
+func configure_active_players(player_ids: Array[int]) -> bool:
+	if state == RoundState.PLAYING or player_ids.is_empty():
+		return false
+	var unique: Dictionary = {}
+	for player_id in player_ids:
+		if not scores.has(player_id) or unique.has(player_id):
+			return false
+		unique[player_id] = true
+	active_player_ids = player_ids.duplicate()
+	return true
+
+
 func add_score(catchable_id: StringName, amount: int, player_id: int) -> bool:
-	if state != RoundState.PLAYING or catchable_id.is_empty() or amount < 0 or not scores.has(player_id):
+	if state != RoundState.PLAYING or catchable_id.is_empty() or amount < 0 or not active_player_ids.has(player_id):
 		return false
 	if _settled_instances.has(catchable_id):
 		return false
@@ -99,7 +115,7 @@ func _prepare_ready_state() -> void:
 	_time_remaining = float(seconds_left)
 	_settled_instances.clear()
 	_change_state(RoundState.READY)
-	for player_id in scores.keys():
+	for player_id in active_player_ids:
 		score_changed.emit(player_id, scores[player_id], level_definition.target_score)
 	time_changed.emit(seconds_left)
 
@@ -128,6 +144,8 @@ func _change_state(next_state: RoundState) -> void:
 
 
 func _compare_scores() -> int:
+	if active_player_ids.size() == 1:
+		return active_player_ids[0]
 	var score_1: int = scores.get(1, 0)
 	var score_2: int = scores.get(2, 0)
 	if score_1 > score_2:

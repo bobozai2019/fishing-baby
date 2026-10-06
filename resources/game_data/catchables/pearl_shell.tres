@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CatchableDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/catchable_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://resources/pickups/pearl-shell.png" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"pearl-shell"
+display_name = "珍珠贝"
+category = 2
+score_value = 300
+weight_multiplier = 1.2
+swim_texture = ExtResource("2")
+visual_scale = 0.13
+collision_radius = 46.0

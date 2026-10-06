@@ -1,0 +1,77 @@
+{
+  "build_id": "custom_release-0d1b6cea0a80900c",
+  "template_kind": "custom_release",
+  "delivery_layout": "dual_representation",
+  "brotli_quality": 11,
+  "files": [
+    {
+      "path": "index.apple-touch-icon.png",
+      "raw_bytes": 11939,
+      "brotli_path": null,
+      "brotli_bytes": null,
+      "sha256": "071ccd3c3619e62c9e27995cf1afde427bb1b630767801a0fe1ac33505b2f221"
+    },
+    {
+      "path": "index.audio.position.worklet.js",
+      "raw_bytes": 2973,
+      "brotli_path": "index.audio.position.worklet.js.br",
+      "brotli_bytes": 895,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "path": "index.audio.worklet.js",
+      "raw_bytes": 7298,
+      "brotli_path": "index.audio.worklet.js.br",
+      "brotli_bytes": 1820,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "path": "index.html",
+      "raw_bytes": 5443,
+      "brotli_path": "index.html.br",
+      "brotli_bytes": 1666,
+      "sha256": "9f08d55454cdd37e3c2f6d3c5d59fa591969e2d9528bca4b718a1fb11df73614"
+    },
+    {
+      "path": "index.icon.png",
+      "raw_bytes": 5765,
+      "brotli_path": null,
+      "brotli_bytes": null,
+      "sha256": "662f81d7672001a6f5f928532493267c226624757de3b5fa2908f6e5923964b7"
+    },
+    {
+      "path": "index.js",
+      "raw_bytes": 250560,
+      "brotli_path": "index.js.br",
+      "brotli_bytes": 54679,
+      "sha256": "38af64dd955e2fb1b580da401ef5105492b9e09cfee1be4f3875066c222a89ad"
+    },
+    {
+      "path": "index.pck",
+      "raw_bytes": 7655272,
+      "brotli_path": "index.pck.br",
+      "brotli_bytes": 7341960,
+      "sha256": "634e6cc80b7fa1ed0d81a48ed5df2ea9400c9f4507698c772bfe3d0c3542f95a"
+    },
+    {
+      "path": "index.png",
+      "raw_bytes": 21443,
+      "brotli_path": null,
+      "brotli_bytes": null,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "index.wasm",
+      "raw_bytes": 16749392,
+      "brotli_path": "index.wasm.br",
+      "brotli_bytes": 3358456,
+      "sha256": "03e16e8418d82766bd4f63e3e058bbe383adef2d1c662c77540740f15b515995"
+    }
+  ],
+  "raw_total_bytes": 24710085,
+  "upload_artifact_bytes": 35469561,
+  "brotli_transfer_bytes": 10798623,
+  "budget_bytes": 26214400,
+  "budget_metric": "transfer",
+  "budget_passed": true
+}
